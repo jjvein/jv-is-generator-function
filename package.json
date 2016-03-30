@@ -1,0 +1,29 @@
+{
+  "name": "jv-is-generator",
+  "version": "1.0.0",
+  "description": "judge a function whether to be a generator function",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjvein/jv-is-generator.git"
+  },
+  "keywords": [
+    "generator",
+    "judge"
+  ],
+  "author": "jjvein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjvein/jv-is-generator/issues"
+  },
+  "homepage": "https://github.com/jjvein/jv-is-generator#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1"
+  }
+}
