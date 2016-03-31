@@ -15,7 +15,8 @@
   },
   "keywords": [
     "generator",
-    "judge"
+    "judge", 
+    "generator function"
   ],
   "author": "jjvein",
   "license": "MIT",

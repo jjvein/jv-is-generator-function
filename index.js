@@ -11,6 +11,7 @@ exports = module.exports = function(func){
 
   
   var str =  objToStr.call(func) 
+  //Here, 
   if(str === '[object Function]' || str === '[object GeneratorFunction]') {
         return reg.test(funcToStr.call(func))
    }
