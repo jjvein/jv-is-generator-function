@@ -8,7 +8,16 @@ var fun2 = function* (){}
 
 function fun3(){}
 function *fun4(){}
-log(jvIsGen(fun1))
-log(jvIsGen(fun2))
-log(jvIsGen(fun3))
-log(jvIsGen(fun4))
+
+var fun5 = Object.prototype.toString
+
+//使用Generator 的构造函数来创建
+var Generator = Object.getPrototypeOf(function*(){}).constructor
+var fun6 = new Generator('a', 'yield a * 2')
+
+log('fun1', jvIsGen(fun1))
+log('fun2', jvIsGen(fun2))
+log('fun3', jvIsGen(fun3))
+log('fun4', jvIsGen(fun4))
+log('fun5', jvIsGen(fun5))
+log('fun6', jvIsGen(fun6))
